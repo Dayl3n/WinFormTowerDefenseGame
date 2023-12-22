@@ -80,7 +80,7 @@ namespace Projekt_J.States
             pictureBoxes[4].Left = 473;
             pictureBoxes[4].Top = 417;
             pictureBoxes[4].MouseClick += new MouseEventHandler((s, e) => UpgradeClickDamge_Click());
-
+/*
             //units Icon
             pictureBoxes[5] = new PictureBox();
             pictureBoxes[5].Image = Properties.Resources.Elf_01;
@@ -96,7 +96,7 @@ namespace Projekt_J.States
             pictureBoxes[6].SizeMode= PictureBoxSizeMode.AutoSize;
             pictureBoxes[6].Left = 809;
             pictureBoxes[6].Top = 417;
-            pictureBoxes[6].MouseClick += new MouseEventHandler((s, e) => UpgradeUnits_Click());
+            pictureBoxes[6].MouseClick += new MouseEventHandler((s, e) => UpgradeUnits_Click());*/
 
             labels[0] = new Label();
             labels[0].BackColor = Color.Transparent;
@@ -122,6 +122,7 @@ namespace Projekt_J.States
             labels[2].Top = 450;
             labels[2].Font = new Font("Calibri",12,FontStyle.Bold);
             labels[2].Width = 113;
+            labels[2].MouseClick += new MouseEventHandler((s, e) => UpgradeCastle_Click());
 
 
             labels[3] = new Label();
@@ -140,9 +141,10 @@ namespace Projekt_J.States
             labels[4].Top = 450;
             labels[4].Text = "Upgrade Click Damage";
             labels[4].Width = 165;
+            labels[4].MouseClick += new MouseEventHandler((s, e) => UpgradeClickDamge_Click());
 
 
-            labels[5] = new Label();
+/*            labels[5] = new Label();
             labels[5].BackColor = Color.Transparent;
             labels[5].Left = 856;
             labels[5].Top = 291;
@@ -155,7 +157,7 @@ namespace Projekt_J.States
             labels[6].Left = 864;
             labels[6].Top = 450;
             labels[6].Text = "Upgrade Units";
-            labels[6].Width = 110;
+            labels[6].Width = 110;*/
             
 
 

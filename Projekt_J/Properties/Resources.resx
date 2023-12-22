@@ -136,6 +136,9 @@
   <data name="Red_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Red_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Enemy_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Enemy_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Enemy_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -145,8 +148,14 @@
   <data name="NewGame_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NewGame_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Enemy_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Option_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Option_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,6 +166,9 @@
   <data name="Exit_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Exit_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Enemy_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Castle_tier3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Castle_tier3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -166,7 +178,13 @@
   <data name="Castle_tier2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Castle_tier2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Castle_tier2_dmg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Castle_tier2_dmg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

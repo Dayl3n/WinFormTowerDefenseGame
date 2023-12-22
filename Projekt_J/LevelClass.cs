@@ -22,8 +22,12 @@ namespace Projekt_J
         {
             get { return level; }
         }
-      
-        public LevelClass(int level)
+        public EnemyFabric MonsterINC
+        {
+            get { return monsterINC; }
+        }
+
+        public LevelClass(Form parrentForm, PlayerCastle playerCastle,int level,int BasicEnemiesCount, int RangeEnemiesCount, int FlyingEnemiesCount, int HugeEnemies)
         {
             this.level = level;
             label = new Label();
@@ -31,6 +35,8 @@ namespace Projekt_J
             label.Font = new Font("Calibri", 12,FontStyle.Bold);
             label.BackColor = Color.Transparent;
             label.Size = new Size(width: 62, height: 19);
+
+            monsterINC = new EnemyFabric(parrentForm,playerCastle,level,BasicEnemiesCount,RangeEnemiesCount,FlyingEnemiesCount,HugeEnemies);
 
             button = new PictureBox();
             button.Size = new Size(width: Properties.Resources.Green_Button.Width, height: Properties.Resources.Green_Button.Height);

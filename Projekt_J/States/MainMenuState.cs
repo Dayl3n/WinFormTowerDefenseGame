@@ -12,12 +12,12 @@ namespace Projekt_J.States
     {
         private PictureBox newGameButton, exitGameButton, optionButton;
         private GameState newState;
-        List<LevelClass> levels = new List<LevelClass>() {new LevelClass(1), new LevelClass(2), new LevelClass(3), new LevelClass(4), new LevelClass(5), new LevelClass(6), new LevelClass(7), new LevelClass(8)};
+        List<LevelClass> levels;
         
-        public MainMenuState(Form parrentform, GameState previousState, PlayerCastle playerCastle) : base(parrentform, previousState,playerCastle)
+        public MainMenuState(Form parrentform, GameState previousState, PlayerCastle playerCastle, List<LevelClass> levels) : base(parrentform, previousState,playerCastle)
         {
             newState = this;
-
+            this.levels = levels;
             parrentForm.BackgroundImage = Properties.Resources.Menu;
 
             newGameButton = new PictureBox();

@@ -13,7 +13,11 @@ namespace Projekt_J
     {
         public WarriorEnemy(Form form, PlayerCastle target, int maxHp, int attackValue, int[] cords) : base(form, target, maxHp, attackValue, cords)
         {
-            hitBox.Image = Properties.Resources.Enemy_01;
+            attackCooldown = 1000;
+            if(maxHp<=50)
+                hitBox.Image = Properties.Resources.Enemy_01;
+            else
+                hitBox.Image = Properties.Resources.Enemy_02;
         }
 
         protected override int Attack()

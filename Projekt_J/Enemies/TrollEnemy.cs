@@ -7,12 +7,12 @@ using System.Windows.Forms;
 
 namespace Projekt_J.Enemies
 {
-    internal class GhostEnemy : Enemy
+    internal class TrollEnemy : Enemy
     {
-        public GhostEnemy(Form parrentForm, PlayerCastle target, int maxHp, int attackValue, int[] cords) : base(parrentForm, target, maxHp, attackValue, cords)
+        public TrollEnemy(Form parrentForm, PlayerCastle target, int maxHp, int attackValue, int[] cords) : base(parrentForm, target, maxHp, attackValue, cords)
         {
-            attackCooldown = 750;
-            hitBox.Image = Properties.Resources.Enemy_04;
+            attackCooldown = 3000;
+            hitBox.Image = Properties.Resources.Enemy_05;
         }
 
         protected override int Attack()

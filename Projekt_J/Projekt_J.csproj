@@ -51,7 +51,7 @@
     <Compile Include="Enemies\Enemy.cs" />
     <Compile Include="Enemies\EnemyFabric.cs" />
     <Compile Include="Enemies\GhostEnemy.cs" />
-    <Compile Include="Enemies\GolemEnemy.cs" />
+    <Compile Include="Enemies\TrollEnemy.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +71,7 @@
     <Compile Include="States\GameState.cs" />
     <Compile Include="States\InGameState.cs" />
     <Compile Include="States\LevelSelectionState.cs" />
+    <Compile Include="States\LoseState.cs" />
     <Compile Include="States\MainMenuState.cs" />
     <Compile Include="States\UpgradeState.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -147,6 +148,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Option_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy_05.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,9 +10,6 @@ namespace Projekt_J.States
 {
     internal class InGameState : GameState
     {
-
-        private EnemyFabric monsterINC;
-        private PlayerCastle playerCastle;
         private List<Enemy> enemies;
         private bool isWaveEnded;
         private LevelClass currentLevel;
@@ -24,8 +21,7 @@ namespace Projekt_J.States
 
             parrentForm.BackgroundImage = Properties.Resources.Background;
             this.playerCastle = playerCastle;
-            monsterINC = new EnemyFabric(parrentForm, playerCastle,currentLevel.Level);
-            enemies = monsterINC.CreateWave();
+            enemies = currentLevel.MonsterINC.CreateWave();
             
             this.levels = levels;
         }
@@ -46,6 +42,7 @@ namespace Projekt_J.States
                         level.isFinished = true;
                     }
                 }
+                enemies.Clear();
                 return new LevelSelectionState(parrentForm,this,levels,playerCastle);
             }
             foreach(Enemy enemy in enemies)
@@ -63,6 +60,14 @@ namespace Projekt_J.States
                 
             }
             isWaveEnded = enemies.All(s => s.HPBar == null);
+            if (playerCastle.HPBar.Value <= 0)
+            {
+                foreach (Enemy enemy in enemies)
+                {
+                    enemy.enemyTimer.Stop();
+                }
+            }
+
 
             return this;
         }

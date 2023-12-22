@@ -14,18 +14,19 @@ namespace Projekt_J
     internal abstract class Enemy
     {
         protected PictureBox hitBox;
-        private ProgressBar hpBar;
-        private Form parrentForm;
-        private Timer enemyTimer;
+        protected ProgressBar hpBar;
+        protected Form parentForm;
+        public Timer enemyTimer;
 
 
         private int maxHp;
-        protected int attackValue;
+        protected int attackValue, attackCooldown;
         private int currentHP;
         
         private Random rnd=new Random();
-        private int speed=10;
+        protected int speed=10;
         protected PlayerCastle target;
+        
 
 
 
@@ -38,11 +39,12 @@ namespace Projekt_J
         public Enemy(Form parrentForm,PlayerCastle target,int maxHp, int attackValue, int[] cords)
         {
             //setting values
-            this.parrentForm = parrentForm;
+            this.parentForm = parrentForm;
             this.target = target;
             this.maxHp = maxHp;
             currentHP = maxHp;
             this.attackValue = attackValue;
+            attackCooldown = 1000;
 
             //setting position
             enemyTimer = new Timer();
@@ -88,7 +90,7 @@ namespace Projekt_J
             {
                 if (hitBox.Left + HitBox.Width >= target.HitBox.Left)
                 {
-                    enemyTimer.Interval = 1000;
+                    enemyTimer.Interval = attackCooldown;
                     Attack();
                 }
                 else

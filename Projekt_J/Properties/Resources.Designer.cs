@@ -63,6 +63,16 @@ namespace Projekt_J.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Arrow {
+            get {
+                object obj = ResourceManager.GetObject("Arrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Attack_dmg {
             get {
                 object obj = ResourceManager.GetObject("Attack_dmg", resourceCulture);
@@ -156,6 +166,56 @@ namespace Projekt_J.Properties {
         internal static System.Drawing.Bitmap Enemy_01 {
             get {
                 object obj = ResourceManager.GetObject("Enemy_01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Enemy_02 {
+            get {
+                object obj = ResourceManager.GetObject("Enemy_02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Enemy_03 {
+            get {
+                object obj = ResourceManager.GetObject("Enemy_03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Enemy_04 {
+            get {
+                object obj = ResourceManager.GetObject("Enemy_04", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Enemy_05 {
+            get {
+                object obj = ResourceManager.GetObject("Enemy_05", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Enemy_051 {
+            get {
+                object obj = ResourceManager.GetObject("Enemy_051", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
