@@ -66,6 +66,7 @@ namespace Projekt_J.States
                 {
                     enemy.enemyTimer.Stop();
                 }
+                return new LoseState(parrentForm,this,playerCastle);
             }
 
 
